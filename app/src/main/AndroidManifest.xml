@@ -15,14 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity">
-            <intent-filter>
-                <action android:name="toBaidu"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <data android:scheme="course"
-                    android:host="www.baidu.com"/>
-            </intent-filter>
-        </activity>
+
     </application>
 
 </manifest>
